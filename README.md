@@ -8,8 +8,8 @@ Submitted by - Kinnar Chowdhury
 Opened: Friday, 19 January 2024, 12:00 AM
 Due: Saturday, 3 February 2024, 11:59 PM
 ```
-##### Marking Scheme & Submission Guideline:
-###### Create a text file and add your GitHub repository link (the name of the GitHub repository should be: ‘git_assignment_HeroVired’ and it should be a private repository) into it and upload that file in the submission section in Vlearn.
+#### Marking Scheme & Submission Guideline:
+##### Create a text file and add your GitHub repository link (the name of the GitHub repository should be: ‘git_assignment_HeroVired’ and it should be a private repository) into it and upload that file in the submission section in Vlearn.
 ```
 a. Each question is mandatory to solve.
 
