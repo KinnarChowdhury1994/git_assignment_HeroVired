@@ -8,9 +8,8 @@ Submitted by - Kinnar Chowdhury
 Opened: Friday, 19 January 2024, 12:00 AM
 Due: Saturday, 3 February 2024, 11:59 PM
 ```
-##### Marking Scheme & Submission Guideline: Create a text file and add your GitHub repository link (the name of the GitHub repository should be: ‘git_assignment_HeroVired’ and it should be a private repository) into it and upload that file in the submission section in Vlearn.
-
-#### Guideline
+##### Marking Scheme & Submission Guideline:
+###### Create a text file and add your GitHub repository link (the name of the GitHub repository should be: ‘git_assignment_HeroVired’ and it should be a private repository) into it and upload that file in the submission section in Vlearn.
 ```
 a. Each question is mandatory to solve.
 
@@ -24,8 +23,9 @@ e. Assignment related steps should be clearly mentioned in the README.md file of
 
 g. No commitment after the due date will be considered as part of the submission.
 ```
+*--*
 
-###### Q.1: You are part of a development team working on a Python application called "CalculatorPlus." The application provides basic arithmetic operations, such as addition, subtraction, multiplication, and division. Your task is to implement a new feature that adds support for calculating the square root of a number.
+###### Q.1: You are part of a development team working on a Python application called "CalculatorPlus". The application provides basic arithmetic operations, such as addition, subtraction, multiplication, and division. Your task is to implement a new feature that adds support for calculating the square root of a number.
 
 ```python
 '''
@@ -90,12 +90,14 @@ j. Once the code reviewer approves your pull request, merge the "feature/sqrt" b
 k. Finally, do the testing in the ‘dev’ branch itself and merge it into the ‘main’ branch and create a ‘version 2’ release.
 '''
 ```
+*--*
 ###### Q.2: For a project that deals with large binary files, integrate Git LFS (Large File Storage) to handle these files efficiently. Demonstrate how to add, commit, and push binary files to the repository, ensuring they are tracked by Git LFS correctly. Clone the repository on another machine to verify that the binary files are downloaded correctly.
 
 ```python
 '''In the repository ‘git_assignment_HeroVired’, create a branch ‘lfs’. Upload any large file whose size is over ‘200mb’ and try to push this file into the repository.'''
 ```
 
+*--*
 ###### Q.3: In this same GitHub repository, create a new branch ‘geometry-calculator’, we'll work on a simple Python program that calculates the area of a circle and the area of a rectangle. We'll use Git stash to switch between working on multiple features (calculating circle area and calculating rectangle area) without committing incomplete changes.
 
 ```python
