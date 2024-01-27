@@ -19,7 +19,9 @@ c. Question number 2 consists of 10 points.
 
 d. Question number 3 consists of 20 points in total where 18 points are for completing the task and 2 points are for helping at least one of your classmates in their GitHub repository by reviewing code.
 
-e. Assignment related steps should be clearly mentioned in the README.md file of the GitHub repository with steps performed to complete each task. f. Make the GitHub repository private and after the due submission date, make it public for the assignment to be corrected.
+e. Assignment related steps should be clearly mentioned in the README.md file of the GitHub repository with steps performed to complete each task.
+
+f. Make the GitHub repository private and after the due submission date, make it public for the assignment to be corrected.
 
 g. No commitment after the due date will be considered as part of the submission.
 ```
@@ -70,7 +72,9 @@ c. Merge this branch with the main branch and make a release of version 1 of the
 
 d. Add any of your classmates as collaborators.
 
-e. Implement a feature by creating a new branch called ‘feature/sqrt’. f. Add the ‘sqrt’ code to it.
+e. Implement a feature by creating a new branch called ‘feature/sqrt’.
+
+f. Add the ‘sqrt’ code to it.
 
 g. While you are working on this feature, imagine that one critical bug is reported in the main branch, and you need to switch back to the ‘dev’ branch, create fixes, and apply them while keeping your ‘feature/sqrt’ branch up-to-date. For this, you need to create
 
@@ -122,64 +126,68 @@ if __name__ == "__main__":
     # print(f"The area of the rectangle with length {length} and width {width} = {calculator.calculate_rectangle_area(length, width)}")
 
 '''
-Workflow Steps:
+#! Workflow Steps:
 
 a. Create a New Branch:
 
-- Create a new branch named "feature/circle-area" to work on the circle area feature
+    - Create a new branch named "feature/circle-area" to work on the circle area feature
 
 b. Stash Changes for Circle Area Feature:
 
-- Before committing the changes, stash them using git stash to save the incomplete feature implementation.
+    - Before committing the changes, stash them using git stash to save the incomplete feature implementation.
 
-- Verify that the working directory is clean
+    - Verify that the working directory is clean
 
 c. Create a New Branch for Rectangle Area Feature:
 
-- Create a new branch named "feature/rectangle-area" to work on the rectangle area
+    - Create a new branch named "feature/rectangle-area" to work on the rectangle area
 
 d. Stash Changes for Rectangle Area Feature:
 
-- Before committing the changes, stash them using git stash to save the incomplete feature implementation.
+    - Before committing the changes, stash them using git stash to save the incomplete feature implementation.
 
-- Verify that the working directory is clean
+    - Verify that the working directory is clean
 
 e. Switch Back to Circle Area Branch:
 
-- Switch back to the "feature/circle-area" branch to continue working on the circle area feature.
+    - Switch back to the "feature/circle-area" branch to continue working on the circle area feature.
 
-- Retrieve the stashed changes
+    - Retrieve the stashed changes
 
-- Complete the circle area feature implementation and save the changes. f. Commit and Push Circle Area Feature:
+    - Complete the circle area feature implementation and save the changes.
+
+f. Commit and Push Circle Area Feature:
 
 g. Switch Back to Rectangle Area Branch:
 
-- Switch back to the "feature/rectangle-area" branch to continue working on the rectangle area feature.
+    - Switch back to the "feature/rectangle-area" branch to continue working on the rectangle area feature.
 
-- Retrieve the stashed changes
+    - Retrieve the stashed changes
 
-- Complete the rectangle area feature implementation and save the changes. h. Commit and Push Rectangle Area Feature
+    - Complete the rectangle area feature implementation and save the changes.
+    
+h. Commit and Push Rectangle Area Feature
 
 i. Create Pull Requests:
 
-- Create a pull request to the ‘dev’ branch.
+    - Create a pull request to the ‘dev’ branch.
 
 j. Review and Merge
 
-- Have another team member or reviewer review your pull requests.
+    - Have another team member or reviewer review your pull requests.
 
-- After receiving approval, merge both pull requests into the main branch.
+    - After receiving approval, merge both pull requests into the main branch.
 
- Submission Instructions:
+'''
+```
+### Submission Instructions:
 
+```
 To submit your assignment, please follow these guidelines:
 
-- Ensure that your assignment is fully completed.
-
-- Push your code to a GitHub repository.
-
-- Share the repository link by including it in a text, Word, or PDF file format.
+    - Ensure that your assignment is fully completed.
+    - Push your code to a GitHub repository.
+    - Share the repository link by including it in a text, Word, or PDF file format.
 
 Submit the file/text containing the repository link via Vlearn.
-'''
 ```
