@@ -1,12 +1,13 @@
 # git_assignment_HeroVired
 ```bash
-Graded Assignment on Git and GitHub for Course 2: Git and GitHub | DevOps B4 - Submitted by - Kinnar Chowdhury
-
+"Graded Assignment on Git and GitHub for Course 2: Git and GitHub | DevOps B4
+Submitted by - Kinnar Chowdhury"
 ```
-
-
-## Opened: Friday, 19 January 2024, 12:00 AM
-## Due: Saturday, 3 February 2024, 11:59 PM
+## Timeline
+```bash
+echo "Opened: Friday, 19 January 2024, 12:00 AM"
+echo "Due: Saturday, 3 February 2024, 11:59 PM"
+```
 
 ### Marking Scheme & Submission Guideline: Create a text file and add your GitHub repository link (the name of the GitHub repository should be: ‘git_assignment_HeroVired’ and it should be a private repository) into it and upload that file in the submission section in Vlearn.
 
@@ -24,12 +25,14 @@ e. Assignment related steps should be clearly mentioned in the README.md file of
 g. No commitment after the due date will be considered as part of the submission.
 ```
 
-Q.1: You are part of a development team working on a Python application called "CalculatorPlus." The application provides basic arithmetic operations, such as addition, subtraction, multiplication, and division. Your task is to implement a new feature that adds support for calculating the square root of a number.
+###### Q.1: You are part of a development team working on a Python application called "CalculatorPlus." The application provides basic arithmetic operations, such as addition, subtraction, multiplication, and division. Your task is to implement a new feature that adds support for calculating the square root of a number.
 
+```python
+'''
 a. Create a repository name: git_assignment_HeroVired
 
 b. Create a ‘dev’ branch and add this code.
-
+'''
 import math
 
 class Calculator:
@@ -78,6 +81,7 @@ print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
 
 # print(f"The square root of {num3} = {calculator.square_root(num3)}")
 
+'''
 c. Merge this branch with the main branch and make a release of version 1 of the ‘calculator plus app’.
 
 d. Add any of your classmates as collaborators.
@@ -101,13 +105,17 @@ i. Request a code review from a team member and make any necessary improvements 
 j. Once the code reviewer approves your pull request, merge the "feature/sqrt" branch into the ‘dev’ branch.
 
 k. Finally, do the testing in the ‘dev’ branch itself and merge it into the ‘main’ branch and create a ‘version 2’ release.
+'''
+```
+##### Q.2: For a project that deals with large binary files, integrate Git LFS (Large File Storage) to handle these files efficiently. Demonstrate how to add, commit, and push binary files to the repository, ensuring they are tracked by Git LFS correctly. Clone the repository on another machine to verify that the binary files are downloaded correctly.
 
-Q.2: For a project that deals with large binary files, integrate Git LFS (Large File Storage) to handle these files efficiently. Demonstrate how to add, commit, and push binary files to the repository, ensuring they are tracked by Git LFS correctly. Clone the repository on another machine to verify that the binary files are downloaded correctly.
-
+```vim
 In the repository ‘git_assignment_HeroVired’, create a branch ‘lfs’. Upload any large file whose size is over ‘200mb’ and try to push this file into the repository.
+```
 
-Q.3: In this same GitHub repository, create a new branch ‘geometry-calculator’, we'll work on a simple Python program that calculates the area of a circle and the area of a rectangle. We'll use Git stash to switch between working on multiple features (calculating circle area and calculating rectangle area) without committing incomplete changes.
+##### Q.3: In this same GitHub repository, create a new branch ‘geometry-calculator’, we'll work on a simple Python program that calculates the area of a circle and the area of a rectangle. We'll use Git stash to switch between working on multiple features (calculating circle area and calculating rectangle area) without committing incomplete changes.
 
+```python
 import math
 
 class GeometryCalculator:
@@ -138,6 +146,7 @@ calculator = GeometryCalculator()
 
 # print(f"The area of the rectangle with length {length} and width {width} = {calculator.calculate_rectangle_area(length, width)}")
 
+'''
 Workflow Steps:
 
 a. Create a New Branch:
@@ -182,7 +191,9 @@ i. Create Pull Requests:
 
 j. Review and Merge
 
-- Have another team member or reviewer review your pull requests. - After receiving approval, merge both pull requests into the main branch.
+- Have another team member or reviewer review your pull requests.
+
+- After receiving approval, merge both pull requests into the main branch.
 
  Submission Instructions:
 
@@ -195,3 +206,5 @@ To submit your assignment, please follow these guidelines:
 - Share the repository link by including it in a text, Word, or PDF file format.
 
 Submit the file/text containing the repository link via Vlearn.
+'''
+```
