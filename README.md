@@ -7,7 +7,7 @@
 ```
     * Opened    : Friday, 19 January 2024, 12:00 AM
     * Due       : Saturday, 3 February 2024, 11:59 PM
-    * Submitted :
+    * Submitted : Saturday, 3 February 2024, 3:23 AM
 ```
 ### Collaborator
 [Name](https://github.com/KinnarChowdhury1994/git_assignment_HeroVired "Collaborator")
