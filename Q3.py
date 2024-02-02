@@ -3,9 +3,8 @@ Q.3: In this same GitHub repository, create a new branch â€˜geometry-calculatorâ
 '''
 
 import math
-
 class GeometryCalculator:
-
+    
 #     def calculate_circle_area(self, radius):
 #         return math.pi * radius ** 2
 
@@ -15,12 +14,14 @@ class GeometryCalculator:
 if __name__ == "__main__":
     calculator = GeometryCalculator()
 
+
+
 # TODO: Implement the feature to calculate the area of a circle
-
 # radius = 5
-
 # print(f"The area of the circle with radius {radius} = {calculator.calculate_circle_area(radius)}")
 
+
+''' CHECKING GIT STASH IN feature/rectangle-area '''
 # TODO: Implement the feature to calculate the area of a rectangle 
 length = 10
 width = 6
