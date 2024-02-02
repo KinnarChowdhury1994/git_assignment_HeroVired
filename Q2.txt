@@ -1,0 +1,23 @@
+'''
+Q.2: For a project that deals with large binary files, integrate Git LFS (Large File Storage) to handle these files efficiently. Demonstrate how to add, commit, and push binary files to the repository, ensuring they are tracked by Git LFS correctly. Clone the repository on another machine to verify that the binary files are downloaded correctly.
+
+In the repository ‘git_assignment_HeroVired’, create a branch ‘lfs’. Upload any large file whose size is over ‘200mb’ and try to push this file into the repository.
+'''
+
+How to integrate Git LFS?
+
+Answer:
+
+1. First Install the git lfs in your prefered os. Reference - https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
+
+2. After install use command:- git lfs install
+
+3. Added a large sized pdf file (big_file_256mb.pdf)
+
+4. Now use command: git lfs track big_file_256mb.pdf
+
+5. You can verify that .gitattributes is generated automatically.
+
+6. Now use command: git add .gitattributes
+
+7. Now add the file in git using command: git add big_file_256mb.pdf
