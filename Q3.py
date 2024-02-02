@@ -2,18 +2,18 @@
 Q.3: In this same GitHub repository, create a new branch ‘geometry-calculator’, we'll work on a simple Python program that calculates the area of a circle and the area of a rectangle. We'll use Git stash to switch between working on multiple features (calculating circle area and calculating rectangle area) without committing incomplete changes.
 '''
 
-# import math
+import math
 
-# class GeometryCalculator:
+class GeometryCalculator:
 
 #     def calculate_circle_area(self, radius):
 #         return math.pi * radius ** 2
 
-#     def calculate_rectangle_area(self, length, width):
-#         return length * width
+    def calculate_rectangle_area(self, length, width):
+        return length * width
 
-# if __name__ == "__main__":
-#     calculator = GeometryCalculator()
+if __name__ == "__main__":
+    calculator = GeometryCalculator()
 
 # TODO: Implement the feature to calculate the area of a circle
 
@@ -21,11 +21,10 @@ Q.3: In this same GitHub repository, create a new branch ‘geometry-calculator�
 
 # print(f"The area of the circle with radius {radius} = {calculator.calculate_circle_area(radius)}")
 
-# TODO: Implement the feature to calculate the area of a rectangle # length = 10
-
-# width = 6
-
-# print(f"The area of the rectangle with length {length} and width {width} = {calculator.calculate_rectangle_area(length, width)}")
+# TODO: Implement the feature to calculate the area of a rectangle 
+length = 10
+width = 6
+print(f"The area of the rectangle with length {length} and width {width} = {calculator.calculate_rectangle_area(length, width)}")
 
 
 """Workflow Steps:
